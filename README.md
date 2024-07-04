@@ -41,12 +41,17 @@ Those are the topics we have covered so far (without taking into account linked 
 
 - `int add(int n, ...)`
 
-8. In the main function allocate memory for the structure `operation`, check if the operation passed is valid and assign the corresponding function to the pointer.
-9. In the main function print the result of the operation.
-10. Return 0 if everything is success and 1 if an error occurs.
-11. Fork the repository in your github.
-12. Remove the remote origin to push and set the new remote origin to your repository.
+8. In the main function allocate memory for the structure `operation`
+9. Create an array of the valid operations
+10. Check if the operation passed is valid and assign the corresponding function to the pointer.
+
+    hint: use `nameOfStruct->function(numbers passed)`
+
+11. In the main function print the result of the operation.
+12. Return 0 if everything is success and 1 if an error occurs.
+13. Fork the repository in your github.
+14. Remove the remote origin to push and set the new remote origin to your repository.
 
     hint: `git remote remove ...` and `git remote add ...`
 
-13. push your changes into your forked repository.
+15. push your changes into your forked repository.
