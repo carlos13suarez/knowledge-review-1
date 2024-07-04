@@ -46,6 +46,7 @@ Those are the topics we have covered so far (without taking into account linked 
 10. Return 0 if everything is success and 1 if an error occurs.
 11. Fork the repository in your github.
 12. Remove the remote origin to push and set the new remote origin to your repository.
+
     hint: `git remote remove ...` and `git remote add ...`
 
 13. push your changes into your forked repository.
