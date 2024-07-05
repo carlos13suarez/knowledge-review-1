@@ -31,6 +31,8 @@ int sub(int n, ...)
 	int i = 0, substraction = 0;
 
 	va_start(n, num_arguments);
+	
+	substraction = va_arg(num_arguments, int);
 
 	for(i = 0; i < n; i++)
 		substraction -= va_arg(num_arguments, int);
